@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal AI Company - Build Your AI Workforce | Alook</title>
+    <meta name="description" content="Build your personal AI company with Alook. Deploy AI agents that work 24/7, manage workflows, and scale your productivity. Start your AI workforce today.">
+    <meta name="keywords" content="personal AI company, AI workforce, AI agents, autonomous AI, AI team, personal AI, AI company">
+    <link rel="canonical" href="https://alook.ai/personal-ai-company">
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="Personal AI Company - Build Your AI Workforce | Alook">
+    <meta property="og:description" content="Build your personal AI company with Alook. Deploy AI agents that work 24/7, manage workflows, and scale your productivity.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://alook.ai/personal-ai-company">
+
+    <!-- Schema Markup -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "Alook",
+      "url": "https://alook.ai",
+      "description": "Personal AI Company platform for building autonomous AI workforces",
+      "sameAs": [
+        "https://twitter.com/alookai",
+        "https://github.com/alookai"
+      ]
+    }
+    </script>
+
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebApplication",
+      "name": "Alook Personal AI Company Platform",
+      "url": "https://alook.ai",
+      "description": "Build and manage your personal AI company with autonomous agents",
+      "applicationCategory": "ProductivityApplication",
+      "operatingSystem": "Web",
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "USD"
+      }
+    }
+    </script>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        header {
+            background: rgba(255, 255, 255, 0.98);
+            padding: 20px 0;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            font-size: 28px;
+            font-weight: bold;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .nav-links {
+            display: flex;
+            gap: 30px;
+            list-style: none;
+        }
+
+        .nav-links a {
+            color: #333;
+            text-decoration: none;
+            font-weight: 500;
+            transition: color 0.3s;
+        }
+
+        .nav-links a:hover {
+            color: #667eea;
+        }
+
+        .hero {
+            padding: 100px 0;
+            text-align: center;
+            color: white;
+        }
+
+        h1 {
+            font-size: 48px;
+            margin-bottom: 20px;
+            font-weight: 700;
+        }
+
+        .subtitle {
+            font-size: 22px;
+            margin-bottom: 40px;
+            opacity: 0.95;
+        }
+
+        .cta-button {
+            display: inline-block;
+            padding: 15px 40px;
+            background: white;
+            color: #667eea;
+            text-decoration: none;
+            border-radius: 50px;
+            font-weight: 600;
+            font-size: 18px;
+            transition: transform 0.3s, box-shadow 0.3s;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+        }
+
+        .cta-button:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(0,0,0,0.3);
+        }
+
+        .content {
+            background: white;
+            padding: 80px 0;
+            margin-top: -50px;
+            border-radius: 30px 30px 0 0;
+        }
+
+        .content h2 {
+            font-size: 36px;
+            margin-bottom: 30px;
+            color: #333;
+            text-align: center;
+        }
+
+        .features {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 40px;
+            margin: 60px 0;
+        }
+
+        .feature {
+            text-align: center;
+            padding: 30px;
+            border-radius: 15px;
+            background: #f8f9fa;
+            transition: transform 0.3s;
+        }
+
+        .feature:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+        }
+
+        .feature-icon {
+            font-size: 48px;
+            margin-bottom: 20px;
+        }
+
+        .feature h3 {
+            font-size: 24px;
+            margin-bottom: 15px;
+            color: #333;
+        }
+
+        .feature p {
+            color: #666;
+            line-height: 1.8;
+        }
+
+        .comparison {
+            background: #f8f9fa;
+            padding: 60px 40px;
+            border-radius: 20px;
+            margin: 60px 0;
+        }
+
+        .comparison-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 40px;
+            margin-top: 40px;
+        }
+
+        .comparison-col h3 {
+            font-size: 28px;
+            margin-bottom: 20px;
+        }
+
+        .comparison-col ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .comparison-col li {
+            padding: 10px 0;
+            border-bottom: 1px solid #e0e0e0;
+        }
+
+        .traditional {
+            color: #999;
+        }
+
+        .ai-powered {
+            color: #667eea;
+            font-weight: 500;
+        }
+
+        .testimonial {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 60px 40px;
+            border-radius: 20px;
+            margin: 60px 0;
+            text-align: center;
+        }
+
+        .testimonial-text {
+            font-size: 24px;
+            font-style: italic;
+            margin-bottom: 20px;
+        }
+
+        .testimonial-author {
+            font-size: 18px;
+            font-weight: 600;
+        }
+
+        footer {
+            background: #333;
+            color: white;
+            padding: 40px 0;
+            text-align: center;
+        }
+
+        .footer-links {
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            margin-bottom: 20px;
+        }
+
+        .footer-links a {
+            color: white;
+            text-decoration: none;
+        }
+
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 36px;
+            }
+
+            .comparison-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .nav-links {
+                display: none;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav class="container">
+            <div class="logo">Alook</div>
+            <ul class="nav-links">
+                <li><a href="#features">Features</a></li>
+                <li><a href="#how-it-works">How It Works</a></li>
+                <li><a href="#pricing">Pricing</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <div class="container">
+            <h1>The Personal AI Company for Modern Teams</h1>
+            <p class="subtitle">Build your personal AI company with autonomous agents that work 24/7, manage complex workflows, and scale your productivity beyond human limits.</p>
+            <a href="https://alook.ai/signup" class="cta-button">Start Your AI Company →</a>
+        </div>
+    </section>
+
+    <section class="content">
+        <div class="container">
+            <h2>Your Personal AI Company Awaits</h2>
+
+            <p style="font-size: 18px; text-align: center; max-width: 800px; margin: 0 auto 60px; color: #666;">
+                In the age of AI, everyone can be a company. With Alook, you're not just using AI tools—you're building a personal AI company with specialized agents that understand your work, adapt to your style, and execute complex tasks autonomously. This isn't about chatbots or simple automation. This is about creating an intelligent workforce that scales your capabilities exponentially.
+            </p>
+
+            <div class="features">
+                <div class="feature">
+                    <div class="feature-icon">🏢</div>
+                    <h3>AI Executive Team</h3>
+                    <p>Deploy specialized AI agents as your C-suite: AI-CEO for strategy, AI-CTO for technical decisions, AI-CMO for marketing. Each agent brings domain expertise and works autonomously toward your goals.</p>
+                </div>
+
+                <div class="feature">
+                    <div class="feature-icon">🔄</div>
+                    <h3>Autonomous Workflows</h3>
+                    <p>Your personal AI company doesn't need constant supervision. Agents collaborate, delegate tasks, and make decisions based on your preferences and business rules. Work happens while you sleep.</p>
+                </div>
+
+                <div class="feature">
+                    <div class="feature-icon">📈</div>
+                    <h3>Infinite Scalability</h3>
+                    <p>Unlike traditional companies limited by headcount, your personal AI company scales instantly. Need 10 agents or 100? Deploy them in seconds. Handle enterprise workloads with startup agility.</p>
+                </div>
+            </div>
+
+            <div class="comparison">
+                <h2 style="text-align: center;">Traditional Company vs. Personal AI Company</h2>
+                <div class="comparison-grid">
+                    <div class="comparison-col">
+                        <h3 class="traditional">Traditional Company</h3>
+                        <ul>
+                            <li class="traditional">❌ Hiring takes months</li>
+                            <li class="traditional">❌ Limited by working hours</li>
+                            <li class="traditional">❌ High overhead costs</li>
+                            <li class="traditional">❌ Knowledge silos</li>
+                            <li class="traditional">❌ Slow decision-making</li>
+                        </ul>
+                    </div>
+                    <div class="comparison-col">
+                        <h3 class="ai-powered">Personal AI Company</h3>
+                        <ul>
+                            <li class="ai-powered">✅ Deploy agents instantly</li>
+                            <li class="ai-powered">✅ Work 24/7 without breaks</li>
+                            <li class="ai-powered">✅ Pay only for what you use</li>
+                            <li class="ai-powered">✅ Perfect knowledge sharing</li>
+                            <li class="ai-powered">✅ Real-time execution</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div style="margin: 80px 0;">
+                <h2 style="text-align: center; margin-bottom: 40px;">How Your Personal AI Company Works</h2>
+
+                <div style="max-width: 800px; margin: 0 auto; font-size: 18px; line-height: 1.8; color: #666;">
+                    <p><strong>Step 1: Define Your Company Structure</strong><br>
+                    Start by defining your personal AI company's structure. Choose from pre-built agent templates or create custom roles. Whether you need a content team, development squad, or research department, Alook provides the framework.</p>
+
+                    <p><strong>Step 2: Deploy Your AI Workforce</strong><br>
+                    With a single command, deploy your entire AI workforce. Each agent comes with specialized knowledge, tools, and capabilities. They understand context, learn from feedback, and improve over time.</p>
+
+                    <p><strong>Step 3: Set Goals and Let Them Execute</strong><br>
+                    Give your personal AI company high-level objectives. Agents break down complex goals into tasks, coordinate execution, and deliver results. You stay informed through executive summaries while your AI company handles the details.</p>
+
+                    <p><strong>Step 4: Scale On Demand</strong><br>
+                    As your needs grow, your personal AI company scales instantly. Add specialized agents for new projects, spin up temporary teams for campaigns, or expand into new domains—all without traditional hiring constraints.</p>
+                </div>
+            </div>
+
+            <div class="testimonial">
+                <p class="testimonial-text">"My personal AI company handles what used to require a team of 20. I focus on strategy while my AI agents execute flawlessly. It's not just productivity—it's a complete paradigm shift."</p>
+                <p class="testimonial-author">- Sarah Chen, Founder & AI Company CEO</p>
+            </div>
+
+            <div style="text-align: center; margin: 80px 0;">
+                <h2 style="margin-bottom: 20px;">Ready to Build Your Personal AI Company?</h2>
+                <p style="font-size: 20px; color: #666; margin-bottom: 40px;">Join thousands of founders, creators, and professionals who've launched their personal AI companies with Alook.</p>
+                <a href="https://alook.ai/signup" class="cta-button">Launch Your AI Company Today →</a>
+            </div>
+
+            <div style="margin-top: 80px; padding: 40px; background: #f8f9fa; border-radius: 20px;">
+                <h2 style="text-align: center; margin-bottom: 30px;">Why Alook for Your Personal AI Company?</h2>
+
+                <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 30px; margin-top: 40px;">
+                    <div>
+                        <h3 style="color: #667eea; margin-bottom: 10px;">🚀 Instant Deployment</h3>
+                        <p>Your personal AI company goes live in minutes, not months. No complex setup, no training required.</p>
+                    </div>
+
+                    <div>
+                        <h3 style="color: #667eea; margin-bottom: 10px;">🧠 Advanced Intelligence</h3>
+                        <p>Powered by cutting-edge AI models, your agents understand nuance, context, and can handle complex reasoning.</p>
+                    </div>
+
+                    <div>
+                        <h3 style="color: #667eea; margin-bottom: 10px;">🔐 Enterprise Security</h3>
+                        <p>Your personal AI company operates with bank-level security. Your data, your control, always.</p>
+                    </div>
+
+                    <div>
+                        <h3 style="color: #667eea; margin-bottom: 10px;">💰 Cost Effective</h3>
+                        <p>Pay only for active compute time. No salaries, no benefits, no overhead—just pure productivity.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-links">
+                <a href="https://alook.ai/privacy">Privacy</a>
+                <a href="https://alook.ai/terms">Terms</a>
+                <a href="https://alook.ai/docs">Documentation</a>
+                <a href="https://alook.ai/blog">Blog</a>
+            </div>
+            <p>&copy; 2026 Alook. Building the future of personal AI companies.</p>
+        </div>
+    </footer>
+</body>
+</html>
